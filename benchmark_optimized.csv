@@ -1,0 +1,823 @@
+query_id,prompt,true_tier,routed_tier,router_confidence,router_latency_ms,source,cache_distance,llm_generation_time_s,total_roundtrip_latency_s
+0,Write an algorithm in Python to remove duplicates from an unsorted linked list,strong,strong,0.9996,56.4,live_llm,,0.0,34.88540554046631
+1,Create an algorithm to detect spam emails.,cheap,cheap,0.9996,53.35,live_llm,,0.0,3.1829965114593506
+2,Construct a program with Python for calculating the average of the numbers in a given list,strong,strong,0.9996,55.08,live_llm,,0.0,18.88656973838806
+3,Come up with 5 activities for a birthday party for a 5-year-old.,cheap,cheap,0.9996,53.16,live_llm,,0.0,2.8073413372039795
+4,Create a class in Python to convert raw text into a structured format,strong,strong,0.9996,57.76,live_llm,,0.0,35.49303317070007
+5,Name a tragedy that occurred in the 20th century.,cheap,cheap,0.9995,59.75,live_llm,,0.0,3.1539292335510254
+6,Input two short sentences and generate a longer sentence that combines them into one.,cheap,cheap,0.9996,54.75,live_llm,,0.0,0.426405668258667
+7,"Write a Python code snippet to check if a list contains duplicated elements [3, 6, 8, 9, 10, 3]",strong,strong,0.9996,58.31,live_llm,,0.0,20.671334981918335
+8,Explain the basics of agile software development.,cheap,cheap,0.9996,46.75,live_llm,,0.0,2.8323259353637695
+9,Mount a remote file system using SSHFS in Linux,strong,strong,0.9995,56.65,live_llm,,0.0,32.679105281829834
+10,Describe the differences between an asynchronous and synchronous web application.,cheap,cheap,0.9995,53.87,live_llm,,0.0,1.718827486038208
+11,Please provide a sample input for a classification task.,cheap,cheap,0.9994,41.81,live_llm,,0.0,2.036489963531494
+12,Describe how the Stock Market works.,cheap,cheap,0.9996,54.65,live_llm,,0.0,3.64737868309021
+13,What is time?,strong,strong,0.9924,55.22,live_llm,,0.0,14.44422960281372
+14,Construct an example sentence using the given adverb and verb.,cheap,cheap,0.9996,45.48,live_llm,,0.0,0.2985661029815674
+15,Generate an example of a tweet about a new sports team.,cheap,cheap,0.9996,55.25,live_llm,,0.0,0.8150942325592041
+16,Write the code for managing employee scheduling,strong,strong,0.9995,54.26,live_llm,,0.0,34.811492681503296
+17,How to automate data writing to audio files?,strong,strong,0.9995,57.99,live_llm,,0.0,29.097832441329956
+18,Describe the biggest challenge you had to overcome during the past year.,cheap,cheap,0.9996,53.49,live_llm,,0.0,0.83107590675354
+19,Write a function in Python to render a table in ASCII with 4 columns and 3 rows,strong,strong,0.9996,53.31,live_llm,,0.0,29.291522979736328
+20,Scroll the mouse wheel up,strong,strong,0.9988,53.64,live_llm,,0.0,3.914885997772217
+21,"Fix the code: def batch_processing(items):
+    for i in range(0, len(items), 10):
+        batch = items[i:i+10]
+        process_batch(batch)",strong,strong,0.9996,52.73,live_llm,,0.0,15.136256694793701
+22,Explain what is a centrifugal force.,cheap,cheap,0.9996,60.11,live_llm,,0.0,2.12419056892395
+23,Name a disease that is caused by an infectious organism.,cheap,cheap,0.9996,57.35,live_llm,,0.0,1.5701534748077393
+24,Write the code for task scheduler setup,strong,strong,0.9995,53.33,live_llm,,0.0,35.19311165809631
+25,"Revise the following sentence: ""Pablo can't making it to the game""",cheap,cheap,0.9994,57.09,live_llm,,0.0,0.3544142246246338
+26,"Fix the code: import numpy as np
+c = np.array([[1, 2], [3, 4]])
+print(np.sum(c))",strong,strong,0.9996,56.22,live_llm,,0.0,8.346688270568848
+27,What is the probability of this event happening?,cheap,cheap,0.9991,54.2,live_llm,,0.0,2.2382450103759766
+28,Insert a sentence in the paragraph to provide appropriate transitions between the two sentences.,cheap,cheap,0.9995,53.45,live_llm,,0.0,0.7894179821014404
+29,Python- insert a character into a string,strong,strong,0.9995,54.01,live_llm,,0.0,22.49965500831604
+30,Generate a list of 5 different ideas for a project on sustainability,cheap,cheap,0.9994,51.44,live_llm,,0.0,1.1699860095977783
+31,Translate the given statement into a different language,cheap,cheap,0.9994,59.91,live_llm,,0.0,0.8053843975067139
+32,"Create a data structure in Python that can store a set of customer details (name, address, and phone number) and perform a search operation",strong,strong,0.9996,54.56,live_llm,,0.0,37.551528453826904
+33,"Given a product review, use sentiment analysis to determine the sentiment of the review.",cheap,cheap,0.9994,57.08,live_llm,,0.0,0.4491252899169922
+34,Name five common agile software development processes.,cheap,cheap,0.9995,58.52,live_llm,,0.0,1.752572774887085
+35,"Write a Python program to detect the most frequently occurring element in a given array array = [1, 3, 1, 4, 5, 3, 4, 3]",strong,strong,0.9996,53.67,live_llm,,0.0,25.81501030921936
+36,Rewrite this sentence using the same meaning but using different words: But I have a plan,cheap,cheap,0.9994,53.93,live_llm,,0.0,0.3432290554046631
+37,Write the code for the launching of Event Viewer,strong,strong,0.9995,57.42,live_llm,,0.0,32.14194107055664
+38,"Write a Python code to search for a given keyword in a dictionary. dictionary = {
+    ?Car?: ?A vehicle with four wheels?,
+    ?Laptop?: ?A computer for personal use?,
+    ?Game?: ?An activity for entertainment?
+    }",strong,strong,0.9996,54.69,live_llm,,0.0,19.416881799697876
+39,"Optimize a Python algorithm that computes the maximum value in a given array list = [23, 45, 67, 89, 13, 99, 19, 20]",strong,strong,0.9996,56.16,live_llm,,0.0,14.502489805221558
+40,Construct an artificial neural network in Python for solving a classification problem. This network should contain three layers Description of the classification task,strong,strong,0.9996,55.48,live_llm,,0.0,36.369683504104614
+41,Explain the concept implied by the given idiom.,cheap,cheap,0.9996,64.42,live_llm,,0.0,2.337141990661621
+42,"Create a basic search engine in Python using a TF-IDF algorithm. The search engine should take a query and a set of documents as input and return the document most relevant to the query Query: ""running shoes""
+Documents:
+Document 1: ""New running shoes perfect for running""
+Document 2: ""The best fitting shoes for running""
+Document 3: ""Running is a great way to exercise""",strong,strong,0.9996,35.71,live_llm,,0.0,34.8098406791687
+43,"Create a Python script to print all entries of a data set in a table format? data_set = [['Name', 'Age', 'Location'],
+  ['James', 30, 'London'],
+  ['Mary', 25, 'New York'],
+  ['John', 28, 'Toronto']]",strong,strong,0.9996,58.03,live_llm,,0.0,32.99804377555847
+44,Explain why we should save water,cheap,cheap,0.9993,56.88,live_llm,,0.0,1.4768967628479004
+45,"Write a Python program to generate a random password of 10 characters. The password should include at least two uppercase characters, two lowercase characters, two digits, and two special characters",strong,strong,0.9995,60.72,live_llm,,0.0,32.665241718292236
+46,"Write a positive review for restaurant ""ABC"".",cheap,cheap,0.9996,53.48,live_llm,,0.0,3.4211924076080322
+47,Create a web scraper using Python to extract the titles and dates of blog posts on a particular website,strong,strong,0.9995,53.96,live_llm,,0.0,36.015669107437134
+48,Write a Python program to compare two given dictionaries and find common elements,strong,strong,0.9996,48.05,live_llm,,0.0,32.86367082595825
+49,Parse the given sentence grammatically.,cheap,cheap,0.9996,53.24,live_llm,,0.0,0.4142575263977051
+50,Evaluate the effectiveness of an online influence campaign,cheap,cheap,0.9992,54.47,live_llm,,0.0,4.337606430053711
+51,Change the given sentence to describe an alternative scenario.,cheap,cheap,0.9996,56.89,live_llm,,0.0,0.48385000228881836
+52,"Organize the words in the sentence to make it read correctly.
+Output the sentence directly.",cheap,cheap,0.9995,53.8,live_llm,,0.0,0.37642526626586914
+53,Login to Twitter using my email: oskizwioski49@gmail.com and my password: oskinrze312,strong,strong,0.9994,57.96,live_llm,,0.0,7.130233526229858
+54,Construct an Object-Oriented design in Python to model a Book,strong,strong,0.9996,55.33,live_llm,,0.0,33.85426998138428
+55,"Create a Python script to generate a classifier trained on a k-means algorithm for a given dataset [1.5 2.6 3.2], [4.3 5.2 6.2], [-1.2 0.2 4.3]",strong,strong,0.9996,59.58,live_llm,,0.0,36.86482095718384
+56,"Edit this sentence:
+The cat is very unique",cheap,cheap,0.9992,53.1,live_llm,,0.0,0.339888334274292
+57,Suggest a wedding dress for a summer outdoor ceremony,cheap,cheap,0.9994,36.83,live_llm,,0.0,3.0016002655029297
+58,"Explain why the American educational system is producing ""dull and uncurious"" students.",cheap,cheap,0.9996,56.06,live_llm,,0.0,3.2581300735473633
+59,Open websites google and gmail,strong,strong,0.9989,55.1,live_llm,,0.0,8.912386894226074
+60,"Fix the code: def dict_operations(d):
+    keys = d.keys()
+    values = d.values()
+    return keys, values",strong,strong,0.9996,55.2,live_llm,,0.0,14.197167873382568
+61,Name a continent that has more than ten countries?,cheap,cheap,0.9995,53.6,live_llm,,0.0,1.9884324073791504
+62,What is the title of the 23rd episode of the thirteenth season of The Simpsons?,cheap,cheap,0.9989,48.51,live_llm,,0.0,1.0263304710388184
+63,"Classify the following figure. Output 1 if it is a rectangle, and 0 if it is not.",cheap,cheap,0.9995,54.89,live_llm,,0.0,0.5114178657531738
+64,Create a class in Python that can be used to store the details of an employee,strong,strong,0.9996,50.73,live_llm,,0.0,33.91720509529114
+65,Update a shopping list by adding an item to the existing list.,cheap,cheap,0.9995,39.49,live_llm,,0.0,1.4818313121795654
+66,Describe a computer virus and its effects.,cheap,cheap,0.9996,59.4,live_llm,,0.0,4.84285831451416
+67,Create a script in Python to convert a given integer to its binary equivalent 19,strong,strong,0.9996,55.03,live_llm,,0.0,8.256278276443481
+68,Create a flow chart to represent a given algorithm.,cheap,cheap,0.9995,46.7,live_llm,,0.0,3.8269693851470947
+69,Write an example of a positive story you can tell in an interview.,cheap,cheap,0.9996,53.43,live_llm,,0.0,2.20226788520813
+70,"Write a Python function to find the maximum profit when given a list of stock prices per day stock_prices = [7, 1, 5, 3, 6, 4]",strong,strong,0.9996,53.29,live_llm,,0.0,24.6392924785614
+71,"Generate a Python script using Scikit-Learn for performing k-means clustering on a given dataset Dataset: The dataset consists of three features x1, x2 and x3.",strong,strong,0.9996,46.7,live_llm,,0.0,35.41965413093567
+72,"Write a Python program to print the largest number from a given list my_list = [1, 5, 10, 20, 8]",strong,strong,0.9996,49.72,live_llm,,0.0,12.33907151222229
+73,Summarize the primary differences between the US and Canadian health care systems.,cheap,cheap,0.9996,53.0,live_llm,,0.0,4.539724111557007
+74,Come up with a list of 10 sports teams in the United States.,cheap,cheap,0.9995,47.61,live_llm,,0.0,0.8129947185516357
+75,Create a Python program to print numbers from 1 to 10 in reverse order,strong,strong,0.9996,57.94,live_llm,,0.0,17.376473665237427
+76,Make a list of techniques for supporting diversity in the workplace.,cheap,cheap,0.9996,57.25,live_llm,,0.0,4.006725788116455
+77,Systematically analyze the argument in the given passage.,cheap,cheap,0.9996,53.88,live_llm,,0.0,0.41298890113830566
+78,Design a game for two players that uses a simple deck of cards.,cheap,cheap,0.9995,53.33,live_llm,,0.0,6.280617713928223
+79,"Given a text about a foreign country, list 5 major cities in that country",cheap,cheap,0.9995,49.51,live_llm,,0.0,2.2108590602874756
+80,Write a function in Python to calculate the nth value of the Fibonacci sequence 7,strong,strong,0.9996,47.42,live_llm,,0.0,22.897274494171143
+81,Generate a Python program to find the longest increasing subsequence in a given list of numbers,strong,strong,0.9995,52.04,live_llm,,0.0,34.57138109207153
+82,Make a list of 3 chemical symbols for elements that are gases at room temperature,cheap,cheap,0.9992,55.18,live_llm,,0.0,0.4566183090209961
+83,Name three common programming languages used for data science,strong,strong,0.9631,49.21,live_llm,,0.0,14.56178593635559
+84,Create a Python script that OCRs a document and then redacts sensitive information.,strong,strong,0.9995,54.59,live_llm,,0.0,35.74850249290466
+85,How can businesses use AI technology to optimize customer service?,cheap,cheap,0.9993,48.44,live_llm,,0.0,3.458237886428833
+86,Describe the given object vividly.,cheap,cheap,0.9996,55.38,live_llm,,0.0,0.5879552364349365
+87,Output the longest palindrome in a sentence.,cheap,cheap,0.9996,58.86,live_llm,,0.0,1.5084717273712158
+88,Generate lyrics about love in rap style.,cheap,cheap,0.9996,55.19,live_llm,,0.0,3.5040502548217773
+89,What is the pH level of pineapple juice?,cheap,cheap,0.9991,50.66,live_llm,,0.0,0.4255220890045166
+90,Complete the following definition of a 'daisy wheel printer':,cheap,cheap,0.9993,57.63,live_llm,,0.0,2.6578521728515625
+91,Write a function in Python to compress a given string. aabcccccaaa,strong,strong,0.9996,53.01,live_llm,,0.0,33.67033791542053
+92,"Identify the data type of the following Python expression:
+
+{""name"": ""John"", ""age"": 40}",strong,strong,0.9996,55.49,live_llm,,0.0,9.932304382324219
+93,"Create a Python program for identifying the longest common string in two text documents Document 1: ""This is a test document for identifying the longest common string.""
+
+Document 2: ""This is another document for searching for the longest common string.""",strong,strong,0.9996,58.37,live_llm,,0.0,27.371291399002075
+94,"Create a Python function that computes the distance between two points (x1, y1) and (x2, y2) x1= 5, y1= 4, x2= 9, y2= 2",strong,strong,0.9996,54.1,live_llm,,0.0,29.660604238510132
+95,"Implement the QuickSort algorithm for sorting a given array of numbers in Python arr = [10, 7, 8, 9, 1, 5]",strong,strong,0.9996,55.0,live_llm,,0.0,24.69432234764099
+96,"Given a list of ingredients and processes, suggest an instruction to cook risotto.",cheap,cheap,0.9995,53.26,live_llm,,0.0,2.384871482849121
+97,Suggest ways that someone can show compassion to another person.,cheap,cheap,0.9996,58.96,live_llm,,0.0,2.730419397354126
+98,Create a Python code to expand a given integer range 3-11,strong,strong,0.9996,53.17,live_llm,,0.0,14.382258415222168
+99,Run an SMB client in Linux,strong,strong,0.9995,47.03,live_llm,,0.0,37.34560942649841
+100,Come up with a creative name for a pet based on the given description.,cheap,cheap,0.9996,58.68,live_llm,,0.0,0.785224199295044
+101,List 5 different types of fruits.,cheap,cheap,0.9996,54.75,live_llm,,0.0,1.3344242572784424
+102,Propose a series of Python commands for downloading the content of a web page,strong,strong,0.9995,58.62,live_llm,,0.0,35.49546957015991
+103,What is gender inequality?,cheap,cheap,0.9988,58.11,live_llm,,0.0,3.040661334991455
+104,Design a graphic t-shirt.,cheap,cheap,0.9996,58.26,live_llm,,0.0,2.882918119430542
+105,Implement a function in Python that takes a string as a parameter and capitalizes the first letter of each word in the string The quick brown fox,strong,strong,0.9996,59.87,live_llm,,0.0,12.315473794937134
+106,Identify and describe four planets in our solar system.,cheap,cheap,0.9995,53.28,live_llm,,0.0,2.902628183364868
+107,Name 3 properties of water.,cheap,cheap,0.9996,51.67,live_llm,,0.0,1.5253651142120361
+108,What is your assessment of the given article?,cheap,cheap,0.9993,53.49,live_llm,,0.0,0.533668041229248
+109,"Fix the code: def data_visualization(data):
+    plt.plot(data)
+    plt.show()",strong,strong,0.9996,54.88,live_llm,,0.0,14.236311912536621
+110,"Create a Python program to find the index of the first occurrence of a given element in a sorted array arr = [1, 3, 3, 4, 5, 6, 8]
+target = 3",strong,strong,0.9996,52.36,live_llm,,0.0,35.40606474876404
+111,Write a script of a sales call.,cheap,cheap,0.9995,61.05,live_llm,,0.0,4.662052869796753
+112,Build a web scraping script using Python to retrieve data from a webpage,strong,strong,0.9996,57.33,live_llm,,0.0,36.3583242893219
+113,Summarize a research paper in 5 sentences.,cheap,cheap,0.9996,54.41,live_llm,,0.0,2.002718925476074
+114,What are the basic principles of strength training?,cheap,cheap,0.9993,48.17,live_llm,,0.0,2.717942476272583
+115,"Research a famous plant-based chef, summarize their career and provide their website link.",cheap,cheap,0.9996,57.67,live_llm,,0.0,0.8845460414886475
+116,Give the full form of MRI,cheap,cheap,0.9993,44.11,live_llm,,0.0,3.038548707962036
+117,How can we reduce the environmental impact of home electricity usage?,cheap,cheap,0.9994,54.75,live_llm,,0.0,3.489365577697754
+118,"Rewrite the given Python code to use list comprehension arr = [3, 1, 2, 5, 4]
+new_arr = []
+for element in arr:
+    if element % 2 == 0:
+        new_arr.append(element)",strong,strong,0.9996,58.93,live_llm,,0.0,5.292893171310425
+119,Name a programming language that is Generally Purpose,strong,cheap,0.9988,53.55,live_llm,,0.0,1.2821714878082275
+120,Check lan status,strong,strong,0.9993,56.67,live_llm,,0.0,33.61161994934082
+121,"I have numerous functions (unknown at design time) that each take a specific number of arguments. I have a table of arguments. How do I call those functions with this table of arguments?
+
+
+Thanks,
+James
+
+",strong,strong,0.9994,54.94,live_llm,,0.0,36.79412651062012
+122,Create a Django app that displays statistical data from a database,strong,strong,0.9994,54.76,live_llm,,0.0,37.55717396736145
+123,Create a Python script that makes an API request and returns the results. The API endpoint should return a list of countries and their capital cities,strong,strong,0.9996,55.4,live_llm,,0.0,29.42423701286316
+124,"Compare and contrast the two programming languages in terms of the following criteria: user base, applications, and syntax.",cheap,cheap,0.9994,54.11,live_llm,,0.0,7.190263986587524
+125,Name two buildings in the ancient city of Rome.,cheap,cheap,0.9996,59.34,live_llm,,0.0,1.6713590621948242
+126,Develop a Python program which will take a string and print out the total number of characters in it,strong,strong,0.9995,53.59,live_llm,,0.0,12.130509614944458
+127,"Create a bot that can identify keywords in natural language queries and respond with appropriate answers query: ""When will the next Star Wars movie be released?""",strong,strong,0.9993,58.44,live_llm,,0.0,31.69638419151306
+128,Execute code: y_pred = clf.predict(X_test),strong,strong,0.9995,56.68,live_llm,,0.0,22.454429626464844
+129,"Classify the following sentence: ""The dog barked loudly"".",cheap,cheap,0.9996,54.87,live_llm,,0.0,0.3902716636657715
+130,Execute terminal code: sed -i 's/old/new/g' file.txt,strong,strong,0.9995,45.35,live_llm,,0.0,18.592742919921875
+131,Examine the given issue and explain why it is or isn't an ethical responsibility.,cheap,cheap,0.9995,57.82,live_llm,,0.0,0.8697693347930908
+132,Come up with a creative opening line for a story.,cheap,cheap,0.9996,49.12,live_llm,,0.0,0.46175599098205566
+133,"Design a Python program that sorts the elements in the array from largest to smallest [3, 8, 5, 2, 6, 4]",strong,strong,0.9996,59.98,live_llm,,0.0,23.338392734527588
+134,Find five facts about the African Elephant.,cheap,cheap,0.9996,52.07,live_llm,,0.0,1.9108307361602783
+135,Create a Azure Function to send an email every day at a specified time,strong,strong,0.9993,58.35,live_llm,,0.0,37.31391668319702
+136,Compose an email to a potential employer showcasing your relevant experience and qualifications,cheap,cheap,0.9994,59.55,live_llm,,0.0,2.051466703414917
+137,You are given a word and you have to explain why it matters.,cheap,cheap,0.9992,54.83,live_llm,,0.0,2.4348654747009277
+138,Describe what cloud computing is in a few sentences.,cheap,cheap,0.9996,52.8,live_llm,,0.0,0.9433548450469971
+139,Come up with three creative solutions to reduce air pollution.,cheap,cheap,0.9995,53.44,live_llm,,0.0,1.431335687637329
+140,"Generate a Python script that filters a list of strings, keeping only those that have a length greater than 5 characters words = [""hello"", ""world"", ""example"", ""test""]",strong,strong,0.9996,59.15,live_llm,,0.0,14.23523736000061
+141,"Analyze and edit this Python code to make it faster def find_longest(arr):
+    length = 0
+    current_length = 0
+    for i in range(len(arr) - 1):
+        if arr[i] < arr[i+1]:
+            current_length += 1
+            if current_length > length:
+                length = current_length
+        else:
+            current_length = 0
+    return length",strong,strong,0.9996,53.75,live_llm,,0.0,32.01290011405945
+142,Rewrite the Below Sentence Using Generation Syntax,cheap,cheap,0.9982,51.44,live_llm,,0.0,0.41605448722839355
+143,"From the following names, create a list of acronyms.",cheap,cheap,0.9996,52.98,live_llm,,0.0,1.8952083587646484
+144,"Write a short story with the following words as character names: Ashley, Robert, and Philip",cheap,cheap,0.9992,60.29,live_llm,,0.0,4.637768030166626
+145,Discuss the new task groups in Python,strong,strong,0.9996,29.27,live_llm,,0.0,31.610544204711914
+146,"When trying to import glib in python 3 using `from gi.repository import glib`, I get an error saying:
+
+
+
+```
+Traceback (most recent call last):
+  File ""<frozen importlib._bootstrap>"", line 2135, in _find_spec
+AttributeError: 'DynamicImporter' object has no attribute 'find_spec'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+  File ""/usr/lib/python3/dist-packages/gi/importer.py"", line 53, in find_module
+    'introspection typelib not found' % namespace)
+ImportError: cannot import name glib, introspection typelib not found
+
+```
+
+I installed all the python glib/dev packages using apt-get on Ubuntu 14.04. Attempting to import the module in python 2 says the module doesn't exist.
+
+
+How do I fix this?
+
+",strong,strong,0.9996,54.98,live_llm,,0.0,36.383549451828
+147,Explain why algorithms are important in data science?,cheap,cheap,0.9994,57.7,live_llm,,0.0,4.536736249923706
+148,Write a codesnippet in Python to generate 5 random integers between 1 and 10,strong,strong,0.9996,54.94,live_llm,,0.0,6.998993158340454
+149,Create a class in Python to find the top 5 most frequent words in a given sentence Sentence: The the quick brown fox jumped over the lazy dog,strong,strong,0.9996,48.58,live_llm,,0.0,23.156954288482666
+150,Cryptanalyse this caesar cipher,cheap,cheap,0.5171,51.17,live_llm,,0.0,8.670149564743042
+151,Write the code for automating the process of disabling Bluetooth on Linux,strong,strong,0.9995,61.35,live_llm,,0.0,26.63742685317993
+152,Edit the given summary for better readability.,cheap,cheap,0.9996,52.98,live_llm,,0.0,0.39887142181396484
+153,"Create a Python Flask application for a simple to-do list. The application should include models for a TodoItem (with fields for title, description, and priority) and a RESTful API which includes endpoints for creating, retrieving, updating, and deleting TodoItems",strong,strong,0.9996,57.94,live_llm,,0.0,37.43696880340576
+154,Identify the fear of heights.,cheap,cheap,0.9995,55.17,live_llm,,0.0,2.338533878326416
+155,"Develop a class in Python to represent an employee, including the data attributes for name, age, position and salary",strong,strong,0.9996,59.37,cache,0.112,0.0,0.20914387702941895
+156,Write the code for defragmenting a specific drive,strong,strong,0.9994,34.67,live_llm,,0.0,35.28332161903381
+157,Generate an AI-based solution to reduce collisions between cars and pedestrians.,cheap,cheap,0.9995,54.17,live_llm,,0.0,4.737506866455078
+158,Convert this CSV file to a JSON file.,strong,strong,0.9993,55.26,live_llm,,0.0,10.683502435684204
+159,"Write a query to perform a sentiment analysis using Natural Language Processing in SQL Table containing tweets with three columns - Tweet ID, tweet body and sentiment score.",strong,strong,0.9992,54.45,live_llm,,0.0,28.830767154693604
+160,"Develop a Python program to calculate the sum of all the elements in an array Array = [1,2,3,4,5]",strong,strong,0.9996,54.0,live_llm,,0.0,20.907716751098633
+161,Brainstorm ways to reduce water waste.,cheap,cheap,0.9995,48.77,live_llm,,0.0,3.2450454235076904
+162,Can you show me a Python function to get domain part of a URL.,strong,strong,0.9996,51.87,live_llm,,0.0,27.278610229492188
+163,What would be an example of a complex carbohydrate?,cheap,cheap,0.9993,54.97,live_llm,,0.0,3.0728492736816406
+164,Search for the nearest hospitals!,strong,strong,0.9942,54.96,live_llm,,0.0,6.366057634353638
+165,"Fix this indentation error in the following Python code def double(number):
+ return number * 2",strong,strong,0.9996,53.19,live_llm,,0.0,8.691956758499146
+166,"Execute code: import time
+time.sleep(5)
+print('Time is up!')",strong,strong,0.9995,51.51,live_llm,,0.0,11.023608446121216
+167,"Develop a Python function to find the most common element in the given list [?cat?, ?dog?, ?cat?, ?bird?, ?horse?, ?dog?]",strong,strong,0.9996,54.04,live_llm,,0.0,20.822831630706787
+168,Rewrite the sentence using less than 8 words,cheap,cheap,0.9994,53.23,live_llm,,0.0,0.40413570404052734
+169,Produce a data structure in Python to model a simple grocery store,strong,strong,0.9996,54.92,live_llm,,0.0,34.50303316116333
+170,"Implement an algorithm in Python to insert a specified element into a sorted array [1, 2, 6, 8], element = 3",strong,strong,0.9996,58.86,live_llm,,0.0,27.94344735145569
+171,"Write a Python program to update the values in a nested dictionary based on a given value my_dict = {
+    'list1': {
+        'list1_1': 10,
+        'list1_2': 20
+    },
+    'list2': {
+        'list2_1': {
+            'list2_1_1': 30
+        }
+        'list2_2': 40
+    }
+}
+value = 25",strong,strong,0.9996,58.04,live_llm,,0.0,25.410680055618286
+172,"Create a Python program to extract the URLs from a given list of strings. ['https://stackoverflow.com/questions/42063887/how-to-extract-urls-from-a-list-of-strings-in-python',
+ 'This is an example of a string without a URL']",strong,strong,0.9996,53.97,live_llm,,0.0,28.806770086288452
+173,Sort a list based on dictionary values in python?,strong,strong,0.9996,52.59,live_llm,,0.0,28.07210397720337
+174,Suggest a method for selecting features for supervised learning.,cheap,cheap,0.9996,47.14,live_llm,,0.0,3.9449124336242676
+175,"Implement an algorithm in Python that can calculate the maximum path sum from the given tree # tree structure
+root = BinaryTreeNode(10)
+root.left = BinaryTreeNode(5)
+root.right = BinaryTreeNode(20)
+root.left.left = BinaryTreeNode(2)
+root.left.right = BinaryTreeNode(11)
+root.right.left = BinaryTreeNode(15)
+root.right.right = BinaryTreeNode(40)",strong,strong,0.9996,45.01,live_llm,,0.0,34.604028940200806
+176,"Given a recent news article, write a headline for it.",cheap,cheap,0.9996,59.79,live_llm,,0.0,0.43288636207580566
+177,Suggest two possible solutions to improve the education system.,cheap,cheap,0.9996,52.62,live_llm,,0.0,1.4431962966918945
+178,"Modify the following Python code to reverse the order of the elements in an array arr = [1, 2, 3, 4, 5]",strong,strong,0.9996,55.13,live_llm,,0.0,24.72757124900818
+179,"Create a class in Python to represent a patient in a hospital. The class should store name, age, medical history, current prescriptions, and allergies",strong,strong,0.9996,51.49,live_llm,,0.0,36.4235577583313
+180,"Given two strings, find out if one is a substring of another. Output 1 for yes, 0 for no.",cheap,cheap,0.999,59.77,live_llm,,0.0,3.3170840740203857
+181,"Develop a Python program to calculate the sum of all the elements in a given 2D array [[1, 2],
+ [3, 4],
+ [5, 6]]",strong,strong,0.9996,54.84,cache,0.0414,0.0,0.21626496315002441
+182,How to connect to a MySQL database?,strong,strong,0.9994,59.11,live_llm,,0.0,34.519450187683105
+183,"Create a data visualization in Python using Matplotlib that displays the total number of cases for coronavirus in different countries [[United States, 212000], [Russia, 180000], [Italy, 105000], [Spain, 90000], [Germany, 70000]]",strong,strong,0.9996,57.74,live_llm,,0.0,21.594637155532837
+184,Provide antonyms for the word 'evil'.,cheap,cheap,0.9996,52.02,live_llm,,0.0,0.899860143661499
+185,"I try to import library: `from bs4 import BeautifulSoup`.
+
+
+When I run script I get error:
+
+
+
+```
+Traceback (most recent call last):
+  File ""index.py"", line 9, in <module>
+    from bs4 import BeautifulSoup
+ImportError: No module named bs4
+root@srvr [/home/public_html/grabber/similar]# 
+
+```
+
+When I try install:
+
+
+
+```
+pip install beautifulsoup4
+
+```
+
+I get the following error:
+
+
+
+```
+Requirement already satisfied: beautifulsoup4 in /usr/lib/python2.6/site-packages/beautifulsoup4-4.5.1-py2.6.egg
+
+```
+
+Script is:
+
+
+
+```
+import sys
+sys.path.append('/usr/lib/python2.6/site-packages')
+from bs4 import BeautifulSoup
+
+```
+",strong,strong,0.9996,60.05,live_llm,,0.0,35.75889468193054
+186,"Generate a program in Python that takes in a list of integers and prints out the second largest element [1, 2, 3, 4, 5, 6]",strong,strong,0.9996,27.55,live_llm,,0.0,25.597598791122437
+187,"Execute code: import time
+time.sleep(5)
+print('5 seconds have passed.')",strong,strong,0.9995,52.03,cache,0.0531,0.0,0.21026206016540527
+188,"Suggest a less common word to replace the word ""great"" in the following sentence:",cheap,cheap,0.9995,52.39,live_llm,,0.0,0.40884923934936523
+189,Explain how email marketing can help increase sales.,cheap,cheap,0.9995,54.71,live_llm,,0.0,3.735654592514038
+190,How long does it take for the moon to complete one orbit around the Earth?,cheap,cheap,0.9992,49.12,live_llm,,0.0,0.3772284984588623
+191,"Write a Python program to automate adding products to an e-commerce website's database Products:
+
+Name: iPhone 11 Pro
+Price: 949
+
+Name: AirPods Pro
+Price: 249",strong,strong,0.9996,56.82,live_llm,,0.0,36.889564990997314
+192,"Write an optimization code in Python to reduce the cost of producing certain items Items: 4 Cakes
+Cost of Each Cake: $1",strong,strong,0.9996,53.74,live_llm,,0.0,28.023637056350708
+193,Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates.,strong,strong,0.9996,52.14,live_llm,,0.0,33.336652755737305
+194,Indicate whether the following phrase is a metaphor or a simile.,cheap,cheap,0.9996,58.92,live_llm,,0.0,0.5932598114013672
+195,Suggest some public health measures to control an outbreak.,cheap,cheap,0.9996,54.72,live_llm,,0.0,0.518815279006958
+196,"Fix the code: def count_chars(string):
+    char_occurrences = {}
+    for char in string:
+        if char not in char_occurrences:
+            char_occurrences[char] = 1
+        else:
+            char_occurrences[char] += 1
+    return char_occurrences",strong,strong,0.9996,53.46,live_llm,,0.0,31.642560482025146
+197,Read the string of numbers and determine what is being described.,cheap,cheap,0.9995,52.3,live_llm,,0.0,0.4626936912536621
+198,Create a program in Python that takes a string as an input and prints out all unique substrings in the input string abcabc,strong,strong,0.9996,53.13,live_llm,,0.0,14.989919424057007
+199,"Write a function in Python Web scripting to update the value of a given list my_list = [1,2,3]
+new_value = 5",strong,strong,0.9996,48.37,live_llm,,0.0,22.512965202331543
+200,"Write a function in Python to extract the first 5 characters of a string. string = ""This is a sample string.""",strong,strong,0.9996,52.19,live_llm,,0.0,14.77298641204834
+201,"Create a webhook in Python to handle incoming HTTP POST requests. This webhook should process the JSON payload in the POST request and log the output to console {
+  ""name"": ""John Doe"",
+  ""email"": ""john@example.com""
+}",strong,strong,0.9996,54.33,live_llm,,0.0,38.60456848144531
+202,"Create a python code to predict if a given pattern of features of a target user can be classified as a fraud features = ['high credit' , 'low age' , 'high spending']",strong,strong,0.9996,58.67,live_llm,,0.0,36.618210792541504
+203,Write an alternative ending for the story.,cheap,cheap,0.9996,52.2,live_llm,,0.0,2.0594873428344727
+204,Provide an example for an action verb.,cheap,cheap,0.9996,57.5,live_llm,,0.0,0.42026758193969727
+205,"Design a program using Python that capitalizes the first letter of every word in a given string string = ""this is a sentence""",strong,strong,0.9996,44.65,live_llm,,0.0,14.953567743301392
+206,Make a connection between the two following words: Cat and Leaf.,cheap,cheap,0.9996,51.95,live_llm,,0.0,2.1200015544891357
+207,Make a decision for the best item for a college student to buy in the given list.,cheap,cheap,0.9996,53.78,live_llm,,0.0,2.5324783325195312
+208,Suggest a creative way to introduce yourself to a new team.,cheap,cheap,0.9996,51.53,live_llm,,0.0,2.955380439758301
+209,"Write a Python program to find the number of occurrences of a given element in an array list = [1, 2, 5, 4, 1, 5]",strong,strong,0.9996,54.85,live_llm,,0.0,18.157410144805908
+210,Create an AI program in Python that determines whether a given sentence is a statement or a question The weather is cold today,strong,strong,0.9996,54.62,live_llm,,0.0,33.097997188568115
+211,"Identify the type of phrase and determine whether it is functioning as a noun, adjective, verb, or adverb.",cheap,cheap,0.9995,53.93,live_llm,,0.0,0.6970541477203369
+212,Find three synonyms for the following word: happy,cheap,cheap,0.9994,53.42,live_llm,,0.0,0.6719303131103516
+213,"I want to write a python script to convert IP addresses to hostnames. I am using a Linux box.
+I don't see this information in whois command. Are there any commands that always give the correct hostnames (as accurately as possible)?
+
+",strong,strong,0.9996,53.67,live_llm,,0.0,34.61614203453064
+214,Change the points in the given sentence into a single sentence.,cheap,cheap,0.9995,55.23,live_llm,,0.0,0.614248514175415
+215,Analyze the following article on ancient Egypt,cheap,cheap,0.9995,55.04,live_llm,,0.0,0.3984372615814209
+216,Generate a python program that prints out all the even numbers between a given range of integers 1 to 50,strong,strong,0.9996,54.84,live_llm,,0.0,19.048076152801514
+217,Write a 250-word article summarizing the changes brought about by Brexit.,cheap,cheap,0.9996,55.25,live_llm,,0.0,3.592097520828247
+218,Write the code for managing system network,strong,strong,0.9995,47.73,live_llm,,0.0,33.199519634246826
+219,"Reword this sentence in your own words.
+
+They want to use the plan as soon as possible.",cheap,cheap,0.9995,43.08,live_llm,,0.0,0.3521106243133545
+220,Write the code for implementing a note-taking feature in a desktop application,strong,strong,0.9995,52.27,live_llm,,0.0,34.74309420585632
+221,Write the code for a desktop app for managing analytics,strong,strong,0.9995,51.65,live_llm,,0.0,36.78131341934204
+222,Construct a function that determines the number of days in a given month using the month name and date.,cheap,cheap,0.9971,55.57,live_llm,,0.0,5.061334133148193
+223,"Execute code: import psutil
+psutil.cpu_percent()",strong,strong,0.9996,54.41,live_llm,,0.0,9.606860637664795
+224,"Create a Python dictionary with keys ""A"", ""B"", ""C"" and each key value should be the length of corresponding key.",strong,strong,0.9996,53.89,live_llm,,0.0,8.461312055587769
+225,Construct a timeline to outline the epochs of the Earth.,cheap,cheap,0.9996,53.48,live_llm,,0.0,7.163004159927368
+226,Describe the benefits of using a blog as a platform for publishing content.,cheap,cheap,0.9996,54.88,live_llm,,0.0,3.1561033725738525
+227,Choose one compound word that describes the following definition.,cheap,cheap,0.9996,59.45,live_llm,,0.0,0.40276241302490234
+228,How can we reduce our carbon emissions?,cheap,cheap,0.9992,67.62,live_llm,,0.0,3.857194662094116
+229,Suggest four content marketing strategies for a small business.,cheap,cheap,0.9996,41.84,live_llm,,0.0,2.8544719219207764
+230,Provide a summary of Facebook's revenue sources in the fiscal year 2019.,cheap,cheap,0.9995,45.53,live_llm,,0.0,1.982771396636963
+231,"Fix the code: import subprocess
+
+print(subprocess.check_output('ls'))",strong,strong,0.9996,52.76,live_llm,,0.0,17.713895797729492
+232,Find the lowest price on the given item.,cheap,cheap,0.9996,54.89,live_llm,,0.0,0.7482099533081055
+233,"Find the text that describes the word ""whimsy"".",cheap,cheap,0.9996,57.75,live_llm,,0.0,0.8851971626281738
+234,How to model protein folding?,strong,strong,0.9992,55.28,live_llm,,0.0,31.980445384979248
+235,Create a user manual for the following product,cheap,cheap,0.9994,60.31,live_llm,,0.0,6.787301301956177
+236,"Design a Python 3 program that takes as input from the user two comma-separated lists of integers and then finds the union of the two lists list1 = [1,2,3,4], list2 = [6,5,4,3]",strong,strong,0.9996,53.94,live_llm,,0.0,26.487260103225708
+237,"Create a function that capitalizes the first letter of any given word ""python""",strong,strong,0.9995,53.13,cache,0.0906,0.0,0.2024381160736084
+238,Hypothesize about what could happen next in the following scenario.,cheap,cheap,0.9995,51.13,live_llm,,0.0,0.3782212734222412
+239,How to download to a specific directory with Python?,strong,strong,0.9996,56.97,live_llm,,0.0,28.786776542663574
+240,"Create a command line utility in Python that takes two arguments. The utility should compare the two arguments and output the result as either ?equal? or ?not equal? Arg1: hello
+Arg2: world",strong,strong,0.9996,46.24,live_llm,,0.0,33.592443227767944
+241,Name 10 things to take camping.,cheap,cheap,0.9995,61.11,live_llm,,0.0,3.4997897148132324
+242,Compose a 1-3 sentence description of a run-down apartment.,cheap,cheap,0.9996,51.18,live_llm,,0.0,0.8533153533935547
+243,Select the right tone for this sentence.,cheap,cheap,0.9996,39.68,live_llm,,0.0,0.3936779499053955
+244,Generate a captivating trailer for the following movie,cheap,cheap,0.9995,57.77,live_llm,,0.0,3.351935863494873
+245,Determine if the statement is true or false. El Nino is a weather phenomenon that occurs yearly.,cheap,cheap,0.9994,58.11,live_llm,,0.0,3.115238904953003
+246,Write a description of a forest at night.,cheap,cheap,0.9996,54.85,live_llm,,0.0,3.379362106323242
+247,Generate Pyglet code for loading and displaying a sequence of images.,strong,strong,0.9988,54.78,live_llm,,0.0,34.0494589805603
+248,"Construct a Python program to classify the data given Classify the following data points into two categories: red and green
+[1, 2, 3, 4, 5, 6, 7]",strong,strong,0.9996,42.54,live_llm,,0.0,17.160200357437134
+249,What is the name of the current president of the United States?,cheap,cheap,0.9993,52.85,live_llm,,0.0,0.6401369571685791
+250,Create an example recipe for a chocolate cake,cheap,cheap,0.9994,57.48,live_llm,,0.0,3.982063055038452
+251,Create a Python class to implement a stack that keeps a record of the minimum value at any given time,strong,strong,0.9996,44.01,live_llm,,0.0,27.279355764389038
+252,Create a function to reverse a string in Python Hello,strong,strong,0.9996,54.44,live_llm,,0.0,8.682491540908813
+253,"Fix the code: def generate_qr_code(data):
+    import qrcode
+    qr = qrcode.QRCode()
+    qr.add_data(data)
+    qr.make()
+    img = qr.make_image()
+    img.show()",strong,strong,0.9996,54.11,live_llm,,0.0,16.266477584838867
+254,"Generate a Python program to convert a given binary string into its equivalent decimal number Binary String: ""1101""",strong,strong,0.9995,48.49,live_llm,,0.0,9.420298099517822
+255,Identify 4 common economic indicators for a given country.,cheap,cheap,0.9996,53.92,live_llm,,0.0,2.2552120685577393
+256,"Write a Python program to optimize a given set of equations using gradient descent Equations:[(x**2) + 2x + 5, (2x**2) + 4x + 1]
+Function:
+Minimize f(x)=  x**2 + 2x + 5 + 2x**2 + 4x + 1",strong,strong,0.9996,47.12,live_llm,,0.0,33.977869749069214
+257,Suggest a website to learn coding online.,cheap,cheap,0.9996,58.35,live_llm,,0.0,4.098763942718506
+258,Generate a random sentence between 4 to 8 words.,cheap,cheap,0.9996,46.25,live_llm,,0.0,0.2568681240081787
+259,"
+```
+a.zip---
+      -- b.txt
+      -- c.txt
+      -- d.txt
+
+```
+
+Methods to process the zip files with Python,
+
+
+I could expand the zip file to a temporary directory, then process each txt file one bye one
+
+
+Here, I am more interested to know whether or not python provides such a way so that
+I don't have to manually expand the zip file and just simply treat the zip file as a specialized folder and process each txt accordingly.
+
+",strong,strong,0.9996,53.43,live_llm,,0.0,35.2887499332428
+260,Explain a common misconception about your topic.,cheap,cheap,0.9996,59.18,live_llm,,0.0,2.745492458343506
+261,Take a story and redo the ending to make it more exciting or interesting.,cheap,cheap,0.9995,56.2,live_llm,,0.0,0.53387451171875
+262,Can Python use multiple inheritance?,strong,strong,0.9996,54.94,live_llm,,0.0,29.419308185577393
+263,"Provide a context-free grammar for the sentence ""Alice has a cat"".",cheap,cheap,0.9995,57.59,live_llm,,0.0,0.8412051200866699
+264,"Create a program in Python to process the following data and generate a report of the average salary of the employees John Doe, 3000
+Jane Doe, 4000
+Mary Doe, 4500",strong,strong,0.9996,53.87,live_llm,,0.0,33.02098798751831
+265,"Using 10 words or less, explain what a blockchain is.",cheap,cheap,0.9996,54.66,live_llm,,0.0,0.45442700386047363
+266,"Take these three sentences (A, B, C) and combine into a story",cheap,cheap,0.9991,54.3,live_llm,,0.0,0.5808200836181641
+267,Find and output the main idea of the given paragraph,cheap,cheap,0.9993,54.84,live_llm,,0.0,0.5276081562042236
+268,Find the third largest city in Canada.,cheap,cheap,0.9996,54.51,live_llm,,0.0,0.7989749908447266
+269,Generate a hypothesis testing question related to education.,cheap,cheap,0.9996,59.9,live_llm,,0.0,0.8676667213439941
+270,Identify the source of this metaphor.,cheap,cheap,0.9996,66.12,live_llm,,0.0,1.0260393619537354
+271,Create a program to generate unique 5-digit IDs in Python,strong,strong,0.9996,54.9,live_llm,,0.0,27.472259998321533
+272,"Write a Python program to compare two strings and print the number of times the second string appears in the first string ""The quick brown fox jumps over the lazy dog"", ""fox""",strong,strong,0.9996,54.19,live_llm,,0.0,9.516106605529785
+273,"Create a function in Python that takes two list of numbers and outputs the product of each element in both lists [1, 2, 3], [3, 4, 5]",strong,strong,0.9996,55.15,live_llm,,0.0,14.559046268463135
+274,"Execute code: import cv2
+img = cv2.imread('example.jpg')
+grey_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+cv2.imshow('Grey Image', grey_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()",strong,strong,0.9996,54.05,live_llm,,0.0,33.37371015548706
+275,"Create a binary search program in Python to find a given number in a given array Array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Number: 4",strong,strong,0.9996,45.3,live_llm,,0.0,34.77383852005005
+276,Create a Python program to display a Pandas dataframe sorted by its index in descending order,strong,strong,0.9996,54.05,live_llm,,0.0,26.239153623580933
+277,"Fix the code: def calculate_statistics(data):
+    mean = sum(data) / len(data)
+    variance = sum((x - mean) ** 2 for x in data) / len(data)
+    return {'mean': mean, 'variance': variance}",strong,strong,0.9996,48.27,live_llm,,0.0,33.026973485946655
+278,Research the HubSpot platform and create a short summary of its capabilities,cheap,cheap,0.9991,59.2,live_llm,,0.0,2.440365791320801
+279,Convert the date “7/3/21” from the American format to the European format.,cheap,cheap,0.9995,58.56,live_llm,,0.0,1.3952512741088867
+280,Are you ever confused?,strong,strong,0.9953,58.71,live_llm,,0.0,3.4575912952423096
+281,Give me four examples of data visualization tools.,cheap,cheap,0.9985,49.68,live_llm,,0.0,1.2581908702850342
+282,"Design a program in Python to delete an element from the give list List: [1,2,3,4,5]
+Element to delete: 3",strong,strong,0.9996,54.89,live_llm,,0.0,34.685004234313965
+283,"Create a command line application using Python to calculate the Gini Index given a dataset data = [[12,10,8],[8,7,6]]",strong,strong,0.9996,52.99,live_llm,,0.0,36.2521710395813
+284,Implement a given algorithm Binary Search,strong,strong,0.9807,67.28,live_llm,,0.0,33.79788398742676
+285,"Identify and determine all the positions of a particular specified element within a predetermined array. For the array: [2, 3, 2, 4, 5], and the defined element: 2, provide the distinct index for each individual occurrence.",strong,strong,0.999,51.48,live_llm,,0.0,10.596837282180786
+286,Develop a Python program to input an integer and print all its digits in the English language Number: 678,strong,strong,0.9996,52.74,live_llm,,0.0,23.694912433624268
+287,Identify the Python command to search a string for a specific keyword.,strong,strong,0.9992,54.5,live_llm,,0.0,21.680233240127563
+288,Generate a review of a restaurant given its name.,cheap,cheap,0.9996,55.65,live_llm,,0.0,0.4876875877380371
+289,"Fix the code: def calculate_statistics(numbers):
+    return {'mean': sum(numbers) / len(numbers), 'min': min(numbers), 'max': max(numbers)}",strong,strong,0.9996,53.79,cache,0.0742,0.0,0.2311694622039795
+290,Describe the process of creating a digital product in five steps,cheap,cheap,0.9994,57.36,live_llm,,0.0,3.4577324390411377
+291,How to build a weather station?,strong,strong,0.9989,55.1,live_llm,,0.0,34.38626480102539
+292,Write a tweet using the hashtag #WorldEnvironmentDay,cheap,cheap,0.9942,55.94,live_llm,,0.0,0.6249935626983643
+293,"Given a sentence, output whether each word is a noun, verb, or adjective.",cheap,cheap,0.9995,42.7,live_llm,,0.0,0.3502616882324219
+294,Create a program in Python to evaluate a given phrase and return a sentiment score Input phrase: The customer service was really helpful,strong,strong,0.9996,57.93,live_llm,,0.0,29.03675079345703
+295,Write a one-paragraph story which involves two people who speak different languages.,cheap,cheap,0.9996,53.63,live_llm,,0.0,1.3899445533752441
+296,Write a Python program that creates a list with 10 random numbers between 1 and 10,strong,strong,0.9996,51.41,live_llm,,0.0,9.441749572753906
+297,"Given a string of characters, write a function in Python that returns only the uppercase characters. ""Hello, World!""",strong,strong,0.9996,52.85,live_llm,,0.0,12.772719144821167
+298,Select a restaurant that fits the bill.,cheap,cheap,0.9996,57.05,live_llm,,0.0,0.8185973167419434
+299,Write the code for a home automation system using Raspberry Pi,strong,strong,0.9995,54.55,live_llm,,0.0,39.51689028739929
+300,Generate a code that prints out the character count of a given input,cheap,cheap,0.9629,59.49,live_llm,,0.0,1.4097623825073242
+301,Make a list of all the pets that can be kept in an apartment.,cheap,cheap,0.9996,57.56,live_llm,,0.0,2.8217811584472656
+302,"Create a class called ""ClassName"" that sets options for a WIGLE query using the Builders module. The required options are ""bssid"", ""user"", and ""pass"", which should be set to specific values. The ""startx"" method should initiate the query using the WigleAgent class and print the resulting latitude, longitude, and BSSID. It should also use the kml_builder class to build a KML file with the latitude, longitude, and BSSID, and print a message to check the output",strong,strong,0.9996,57.87,live_llm,,0.0,37.57730221748352
+303,Elaborate on Python's ternary conditional operator,strong,strong,0.9996,59.68,live_llm,,0.0,23.414881944656372
+304,"Given a data set of Twitter messages, write a Python code to get the most frequent words used in the messages Data Set of Twitter Messages:
+
+""Excited for the new year! #happynewyear""
+""Christmas time is here! #christmastime""
+""Wishing everyone a merry Christmas! #merrychristmas""
+""Coding is so much fun!""",strong,strong,0.9996,52.03,live_llm,,0.0,33.84821176528931
+305,"Based on the Wikipedia article below, create a 100-word summary of the concept.",cheap,cheap,0.9995,55.41,live_llm,,0.0,1.7776484489440918
+306,"Develop an algorithm in Python to optimize a given set of parameters for a given objective function Objective function: f(x, y) = (x * y) + (y + x)
+Parameters: x, y",strong,strong,0.9996,58.33,live_llm,,0.0,36.97833776473999
+307,Use Python to create a program that takes in a user input string and outputs the reverse of the string,strong,strong,0.9996,54.54,live_llm,,0.0,23.140741109848022
+308,Who invented the first computer?,cheap,cheap,0.9991,44.77,live_llm,,0.0,2.9336605072021484
+309,"Fix the code: import numpy as np
+a = np.array([1, 2, 3])
+b = a * 2",strong,strong,0.9996,55.41,cache,0.0942,0.0,0.21821928024291992
+310,Create a Python program to aggregate data from multiple sources and store the data in a MongoDB database,strong,strong,0.9996,53.55,live_llm,,0.0,36.14278483390808
+311,Create a Python script that can convert a hexadecimal timestamp into a standard date/time format that is understandable for an average user. The provided hexadecimal timestamp is 5F38B3DE.,strong,strong,0.9996,30.83,live_llm,,0.0,28.481817483901978
+312,"Create an algorithm in Python 3 to identify the characters in a given string ""Abe erotically jitters""",strong,strong,0.9996,52.53,live_llm,,0.0,23.976553440093994
+313,"Write a function in Python that takes a 2D array and returns the product of all elements in it. [[1, 2],[3, 4]]",strong,strong,0.9996,58.5,live_llm,,0.0,15.698155641555786
+314,"Write a Python program to convert a given string to an encrypted version of the string ""Hello, World!""",strong,strong,0.9996,58.85,live_llm,,0.0,20.680299520492554
+315,"Create a function in Python that takes a value and inserts it into an already sorted list [1, 5, 8], 6",strong,strong,0.9996,51.18,live_llm,,0.0,21.204957962036133
+316,Write an intro for a blog post about computer science.,cheap,cheap,0.9996,51.21,live_llm,,0.0,5.0446083545684814
+317,"Create a program in Python that takes text as an input and returns keywords and key phrases text = ""This is some text I want to analyze and get key phrases and keywords from.""",strong,strong,0.9996,58.39,live_llm,,0.0,36.1419517993927
+318,Develop a function in Python to filter out invalid emails from a given list of emails,strong,strong,0.9996,55.62,live_llm,,0.0,28.113059997558594
+319,State the name and properties of the law of conservation of energy.,cheap,cheap,0.9995,51.76,live_llm,,0.0,2.098385810852051
+320,"Create a Python program to find out if a string contains any characters from another given string String 1: Hello
+String 2: eo",strong,strong,0.9996,54.12,live_llm,,0.0,14.030557632446289
+321,Rewrite this sentence about a 50 mile marathon,cheap,cheap,0.9995,54.04,live_llm,,0.0,0.7182624340057373
+322,Generate a short piece of creative writing about a surprise snowstorm.,cheap,cheap,0.9996,60.02,live_llm,,0.0,3.297961473464966
+323,"Implement dynamic programming in Python to solve a knapsack problem Weights of items:
+[2, 3, 4, 5]
+
+Values of items:
+[3, 4, 5, 6]
+
+Knapsack size:
+5",strong,strong,0.9996,55.56,live_llm,,0.0,34.55509305000305
+324,Write the code for managing notes,strong,strong,0.9995,51.72,live_llm,,0.0,37.7025465965271
+325,Can you show me a Python program to get number of nonzero values in array.,strong,strong,0.9996,53.2,live_llm,,0.0,21.8081374168396
+326,Deduce the meaning of the statement.,cheap,cheap,0.9996,59.07,live_llm,,0.0,0.4969296455383301
+327,"Develop a function in Python that takes an individual name as an input and output its acronym ""Oscar Thomas""",strong,strong,0.9996,55.72,live_llm,,0.0,20.121726989746094
+328,Identify two key features of a spider's body.,cheap,cheap,0.9995,53.26,live_llm,,0.0,1.2201876640319824
+329,"Fix the code: from flask import render_template
+@app.route('/home')
+def home():
+    return render_template('home.html')",strong,strong,0.9996,54.7,live_llm,,0.0,17.252800703048706
+330,Can you give me 4 simple recipes I could make with 5 ingredients or less?,cheap,cheap,0.9993,54.39,live_llm,,0.0,4.661060333251953
+331,"Capture video from the webcam and add a watermark to the top-left corner of each frame, then display the video.",strong,strong,0.9994,54.77,live_llm,,0.0,31.15538001060486
+332,Please summarize this text.,cheap,cheap,0.9993,54.47,live_llm,,0.0,0.6173064708709717
+333,Create a program to check if the parenthesis of a string are balanced,strong,strong,0.9991,60.23,live_llm,,0.0,28.918265342712402
+334,"I wrote my first code with Google Task Queue Python API. It is supposed to send out an email every time URL is entered into the address bar. Although it shows a task in `default` task queue in my dashboard, I don't know why is it not executed even after an hour of initiating it.
+
+
+queue-mail.py:-
+
+
+
+```
+class sendMail(webapp.RequestHandler):
+    def post(self):
+        mail.send_mail(
+            'X@gmail.com',
+        self.request.get('to'),
+        self.request.get('subject'),
+        self.request.get('body'))
+
+
+taskqueue.add(url='/sendMail',params=dict(
+    to='Y@hotmail.com',
+subject = 'Testing task queues',
+body = 'this is a message!'))
+
+```
+
+app.yaml:-
+
+
+
+```
+handlers:
+ - url: /mail
+   script: queue-mail.py
+
+```
+
+I invoked the code as: `appid.appspot.com/mail`
+
+",strong,strong,0.9996,41.02,live_llm,,0.0,33.705223083496094
+335,List the four characters in the 1971 movie Willy Wonka and the Chocolate Factory,cheap,cheap,0.9992,54.99,live_llm,,0.0,1.1718847751617432
+336,"Generate an HTML table using Python that displays the following data: name, age, city Name: John, Age: 20, City: New York
+Name: Jane, Age: 25, City: San Francisco",strong,strong,0.9996,51.06,live_llm,,0.0,23.898963689804077
+337,"Create a mnemonic device to remember ""Education is impossible to forget""",cheap,cheap,0.9993,55.02,live_llm,,0.0,1.0268769264221191
+338,Generate a sequence of numbers that follow the pattern below,cheap,cheap,0.9994,59.25,live_llm,,0.0,0.7157297134399414
+339,"Create a class in Python to represent a rectangle with the attributes width, height, and area.",strong,strong,0.9996,55.12,live_llm,,0.0,29.240453481674194
+340,Find the current time.,cheap,cheap,0.9995,53.67,live_llm,,0.0,0.9016914367675781
+341,Write the code for the emptying of the Recycle Bin,strong,strong,0.9995,52.41,live_llm,,0.0,29.874507188796997
+342,"Write a function that takes a string as an argument and recursively removes all vowels (a, e, i, o, u) from it. Additionally, the function should count and return the number of vowels removed. Consider case sensitivity.",strong,strong,0.9994,52.91,live_llm,,0.0,36.285649061203
+343,Predict the market price of an electric car given the following features,cheap,cheap,0.9995,57.84,live_llm,,0.0,6.351844549179077
+344,Generate an array with 20 random unique numbers from 1 to 100 in Python,strong,strong,0.9996,57.2,live_llm,,0.0,11.483464479446411
+345,Suggest a dessert name based on the provided ingredients,cheap,cheap,0.9995,53.71,live_llm,,0.0,1.3538737297058105
+346,Create a program that sorts a list of numbers by smallest to largest using the insertion sort algorithm.,cheap,strong,0.9609,55.47,live_llm,,0.0,29.739380836486816
+347,How can we reduce the amount of waste produced in our cities?,cheap,cheap,0.9993,53.19,live_llm,,0.0,3.3046817779541016
+348,How does the aging process affect the heart?,cheap,cheap,0.9994,39.21,live_llm,,0.0,4.2120912075042725
+349,How to build a voice-activated assistant?,strong,strong,0.9993,55.1,live_llm,,0.0,33.64381766319275
+350,How did the Black Plague change Europe?,cheap,cheap,0.999,55.51,live_llm,,0.0,4.28823184967041
+351,"Write a Python program that creates a new dictionary from two existing dictionaries dict1 = {'a':1, 'b':2, 'c':3} 
+dict2 = {'d':4, 'e':5, 'f':6}",strong,strong,0.9996,55.5,live_llm,,0.0,33.82172632217407
+352,Name five kinds of birds found in the United States.,cheap,cheap,0.9995,54.29,live_llm,,0.0,2.6982998847961426
+353,Convince me why studying history is important.,cheap,cheap,0.9995,55.22,live_llm,,0.0,2.049285650253296
+354,Formulate an equation to calculate the circumference of a circle given the radius.,cheap,cheap,0.9995,53.79,live_llm,,0.0,1.0087306499481201
+355,Explain what a Python dictionary is.,strong,strong,0.9972,55.28,live_llm,,0.0,32.25533723831177
+356,Analyze the characteristics of a protagonist.,cheap,cheap,0.9995,49.3,live_llm,,0.0,3.720505475997925
+357,"Create a python code to classify the given dataset into two classes based on the income import pandas as pd
+
+df = pd.DataFrame({'salary':[45000, 48000, 50000, 55000, 60000],
+                    'education':[1, 1, 2, 2, 3]})",strong,strong,0.9996,55.89,live_llm,,0.0,26.14029884338379
+358,"Train an XGBoost model in Python to classify emails into two categories: 'spam' and 'not spam' Data set with 4,000 emails",strong,strong,0.9996,56.71,live_llm,,0.0,35.6753363609314
+359,Show how to stitch a simple embroidery pattern.,cheap,cheap,0.9993,55.33,live_llm,,0.0,4.816118478775024
+360,Design a logo for a fictional company that reflects the given motto.,cheap,cheap,0.9996,56.16,live_llm,,0.0,2.808678388595581
+361,"Design a Python program that takes a list of numbers and prints out the number with the highest value [1, 2, 300, 4, 5]",strong,strong,0.9996,58.11,cache,0.1124,0.0,0.22167706489562988
+362,Design a Python program to print a triangle pyramid pattern,strong,strong,0.9996,53.16,live_llm,,0.0,19.943856716156006
+363,How to generate synthetic data?,strong,strong,0.9993,54.05,live_llm,,0.0,34.489707946777344
+364,Compose a story that's 100 words long,cheap,cheap,0.9994,58.08,live_llm,,0.0,3.5198404788970947
+365,"Translate the following description into a Python code to find the maximum and minimum of a given list of numbers [1, 5 ,10, 3, 9, 4]",strong,strong,0.9996,57.75,live_llm,,0.0,13.38776445388794
+366,"Construct a new sentence using the given words 
+
+happy, sandwich, lunch",cheap,cheap,0.9995,94.83,live_llm,,0.0,0.46405959129333496
+367,What is the relationship between energy and the law of conservation of energy?,cheap,cheap,0.9992,53.06,live_llm,,0.0,2.9071006774902344
+368,"Fix the code: from PIL import ImageDraw, ImageFont
+image = Image.new('RGB', (500, 300), 'white')
+draw = ImageDraw.Draw(image)
+draw.text((10, 10), 'Hello, World!', fill='black')",strong,strong,0.9996,51.49,live_llm,,0.0,27.54350209236145
+369,Rewrite this sentence using different words and a synonym.,cheap,cheap,0.9996,48.79,live_llm,,0.0,0.7985134124755859
+370,Give an example of a dataset for sentiment analysis,cheap,cheap,0.9989,60.2,live_llm,,0.0,1.8435280323028564
+371,Design a poster encouraging people to use public transport instead of cars.,cheap,cheap,0.9996,54.7,live_llm,,0.0,3.7813355922698975
+372,Describe a way to properly dispose of hazardous waste.,cheap,cheap,0.9996,53.42,live_llm,,0.0,4.521197319030762
+373,Build a class in Python that implements a singly linked list,strong,strong,0.9996,56.37,live_llm,,0.0,34.02178883552551
+374,"Find the smallest number in the given list without using any built-in Python functions or sorting arr = [8, 3, 9, 5, 1]",strong,strong,0.9996,58.93,live_llm,,0.0,11.403052568435669
+375,"Analyze the poem ""I Hear America Singing"" by Walt Whitman.",cheap,cheap,0.9995,47.33,live_llm,,0.0,3.3451361656188965
+376,Create a Python program that takes as input an email address and validates it using a regex pattern. email = 'example@gmail.com',strong,strong,0.9996,59.15,live_llm,,0.0,21.625902891159058
+377,Convert 2lbs to kilograms.,cheap,cheap,0.9995,53.65,live_llm,,0.0,0.3885493278503418
+378,Create a web scraper in Python to scrape the top 10 products from a bike parts website,strong,strong,0.9996,54.39,live_llm,,0.0,36.0098021030426
+379,Create a program in Python to generate 10 random integers,strong,strong,0.9996,47.86,cache,0.0778,0.0,0.13753104209899902
+380,List the steps for baking a cake.,cheap,cheap,0.9996,66.11,live_llm,,0.0,5.857428789138794
+381,"Generate a Python program to extract the domain name from a given URL url = ""https://www.google.com""",strong,strong,0.9995,55.16,live_llm,,0.0,27.710200548171997
+382,Identify where the following words belong in the parts of speech.,cheap,cheap,0.9996,54.28,live_llm,,0.0,0.47156715393066406
+383,Find 3 articles discussing the latest trends in artificial intelligence.,cheap,cheap,0.9996,49.48,live_llm,,0.0,1.675283432006836
+384,Plan a virtual birthday party for a 10 year old,cheap,cheap,0.999,58.3,live_llm,,0.0,4.931777477264404
+385,Write a Python program to compare two given dictionaries and find common elements,strong,strong,0.9996,59.39,cache,0.0,0.0,0.2050919532775879
+386,Maximize the current window,strong,strong,0.9956,53.68,live_llm,,0.0,13.817351341247559
+387,"Make a binary classification on a dataset containing the ""Age"" column.",cheap,cheap,0.9995,51.99,live_llm,,0.0,5.568702459335327
+388,Compare the independence of two countries.,cheap,cheap,0.9996,54.05,live_llm,,0.0,3.697836399078369
+389,Describe the moment when a person realizes they need to make a big change.,cheap,cheap,0.9996,61.54,live_llm,,0.0,4.15997052192688
+390,Create a function in Python to find the maximum value among five elements,strong,strong,0.9996,55.14,live_llm,,0.0,16.295605182647705
+391,Generate a response that demonstrates empathy.,cheap,cheap,0.9996,58.05,live_llm,,0.0,0.5467889308929443
+392,Write the code for a desktop app for managing data modeling,strong,strong,0.9995,54.77,cache,0.0995,0.0,0.20945119857788086
+393,Detect typos in the following passage.,cheap,cheap,0.9995,51.44,live_llm,,0.0,0.6468138694763184
+394,How to get the filename without the extension from a path in Python?,strong,strong,0.9996,55.17,live_llm,,0.0,17.739614725112915
+395,Name the layer of the Earth that separates the lithosphere and the mantle.,cheap,cheap,0.9995,53.72,live_llm,,0.0,0.8263912200927734
+396,Interpret the following proverb and explain its relevance to modern life.,cheap,cheap,0.9996,55.01,live_llm,,0.0,2.0603795051574707
+397,Describe the four stages of natural selection.,cheap,cheap,0.9996,28.89,live_llm,,0.0,3.587470293045044
+398,"We have a list of integers, write a function in Python to find the second smallest element in the list. [2, 4, 7, 10, 8]",strong,strong,0.9996,53.74,live_llm,,0.0,20.74781823158264
+399,"Rank the following places from greatest to least in terms of environmental impact: factory, coal power plant, oil rig",cheap,cheap,0.9993,50.55,live_llm,,0.0,1.8434622287750244
+400,Suggest one action that an organic food store can take to reduce its environmental impact.,cheap,cheap,0.9996,46.46,live_llm,,0.0,3.120288848876953
+401,Recognize the author of the following paragraph,cheap,cheap,0.9993,54.49,live_llm,,0.0,0.5502214431762695
+402,You need to implement a neural network using python to predict whether a given tumor is cancerous or not,strong,strong,0.9996,54.31,live_llm,,0.0,37.7294716835022
+403,"Given the following text, detect any spelling errors and correct them.",cheap,cheap,0.9995,56.19,live_llm,,0.0,0.7835233211517334
+404,"Create a Python script that takes a sentence as an input, separates all the words into a list and prints them in alphabetical order This is an example sentence",strong,strong,0.9996,53.74,live_llm,,0.0,18.638222217559814
+405,Which of the following is not a type of machine learning?,cheap,cheap,0.9994,42.02,live_llm,,0.0,3.704138994216919
+406,Develop a research question that can be answered using data.,cheap,cheap,0.9996,54.64,live_llm,,0.0,3.2225141525268555
+407,"Edit the following sentence to include the word ""lovely"": The city was beautiful.",cheap,cheap,0.9996,55.36,live_llm,,0.0,0.46892523765563965
+408,How much pressure is exerted by a force of 2N?,cheap,cheap,0.9993,56.46,live_llm,,0.0,1.3737027645111084
+409,Choose the correct grammar for the underlined word.,cheap,cheap,0.9995,60.29,live_llm,,0.0,0.4374961853027344
+410,Can you show me a Python code to truncate float two decimals?,strong,strong,0.9996,58.99,live_llm,,0.0,19.118884801864624
+411,Parse the sentence into a parse tree.,cheap,cheap,0.9994,54.47,live_llm,,0.0,1.2435071468353271
+412,Generate a class in Python that creates a fraction object and adds two fraction objects,strong,strong,0.9996,54.7,live_llm,,0.0,34.97929668426514
+413,"Write a Python program to remove items from a list present in other list list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6]",strong,strong,0.9996,54.33,live_llm,,0.0,27.406019687652588
+414,Build a Python dictionary that contains five elements.,strong,strong,0.9965,54.98,live_llm,,0.0,5.6937901973724365
+415,"Create a login system, using Python, that asks for the user's username and password and only allows a user to login if their username and password are correct",strong,strong,0.9996,53.14,live_llm,,0.0,35.011959075927734
+416,Generate a list of steps to carry out a community outreach project,cheap,cheap,0.9994,57.78,live_llm,,0.0,3.6414272785186768
+417,"Identify the key characters of the novel ""The Hobbit"".",cheap,cheap,0.9996,54.71,live_llm,,0.0,1.5910930633544922
+418,"In this task, you are given inputs i,j, and A, where i and j are integers and A is a list. You need to list all elements of A from the ith element to the jth element. i and j will be non-negative, and will always have a value less than the length of A. i will always be less than j.
+
+3, 5, ['w', 'v', '5117', '4475', '9109', 'C']",strong,strong,0.9995,56.04,live_llm,,0.0,12.480987071990967
+419,Develop a list of 5 steps to ensure project success.,cheap,cheap,0.9996,55.34,live_llm,,0.0,2.8765854835510254
+420,Write a Python program to find the minimum number of swaps needed to sort the given array in ascending order,strong,strong,0.9996,52.47,live_llm,,0.0,37.996787548065186
+421,"Write a Python function to sort a two-dimensional array based on a given column index Array = [[1,2,3], [4,5,6], [7,8,9]]
+Column index = 2",strong,strong,0.9996,54.53,live_llm,,0.0,33.22367978096008
+422,"Write a Python program to replace the last element in a list with another given element. lst = [1, 2, 3, 4]
+element = 5",strong,strong,0.9996,29.26,live_llm,,0.0,14.238534927368164
+423,Predict what will be the result of the following arithmetic equation,cheap,cheap,0.9994,47.2,live_llm,,0.0,0.6800994873046875
+424,Fix the code: import os os.rmdir(),strong,strong,0.9996,58.94,live_llm,,0.0,19.991933345794678
+425,"Evaluate this statement: ""The film was entertaining but not informative.""",cheap,cheap,0.9994,53.89,live_llm,,0.0,3.1912248134613037
+426,Build a simple GUI with Tkinter,strong,strong,0.9995,54.93,live_llm,,0.0,34.55780577659607
+427,"Develop a Python program that merges two dictionaries together dict1 = { 'a': 1, 'b': 2, 'c': 3 }
+dict2 = { 'd': 4, 'e': 5, 'f': 6 }",strong,strong,0.9996,59.93,cache,0.1113,0.0,0.20384001731872559
+428,Pretend you are a tour guide. Give an interesting overview of the city of Rome.,cheap,cheap,0.9995,41.69,live_llm,,0.0,3.390599250793457
+429,Reformulate the sentence to use an adjective in its place.,cheap,cheap,0.9996,55.98,live_llm,,0.0,0.3964383602142334
+430,Develop a function in Python to detect palindromes,strong,strong,0.9996,59.25,live_llm,,0.0,27.806745767593384
+431,Describe the structure and function of an N-Gram language model.,cheap,cheap,0.9995,54.91,live_llm,,0.0,7.496393442153931
+432,How to remove \n from the right side of values in a string.,strong,strong,0.9994,55.62,live_llm,,0.0,24.56331729888916
+433,List the most important mobile app development trends for 2021,cheap,cheap,0.9991,53.87,live_llm,,0.0,4.180131912231445
+434,"Write a Python script that creates a data frame from the given dictionary data_dict = {""Country"":[""India"", ""Germany"", ""USA"", ""Indonesia""], 
+             ""Capital"":[""Delhi"", ""Berlin"", ""Washington DC"", ""Jakarta""], 
+             ""Currency"":[""Rupee"", ""Euro"", ""US Dollar"", ""Rupiah""]}",strong,strong,0.9996,57.26,live_llm,,0.0,11.9555983543396
+435,Organize the following sentences into a coherent paragraph.,cheap,cheap,0.9996,52.41,live_llm,,0.0,1.6460976600646973
+436,Write me a Python function for checking in if two files are similar.,strong,strong,0.9994,56.09,live_llm,,0.0,34.25523924827576
+437,Implement a chatbot that gives responses based on the sentiment of the incoming message.,strong,strong,0.9992,57.77,live_llm,,0.0,35.9187171459198
+438,"Convert a given JSON data into a Python dictionary object {
+  ""name"": ""John"",
+  ""age"": 32,
+  ""address"": ""123 Main Street""
+}",strong,strong,0.9996,60.42,live_llm,,0.0,16.245394468307495
+439,"I'm ready to push my existing Django project (which i've been running in a local environment) to a Bitbucket repository so I can run it on a public server. At the moment I feel like there's a lot of files created in local development that needs to be added to `.gitignore`. 
+
+
+I found [this .gitignore file on github](https://github.com/github/gitignore/blob/master/Python.gitignore) however I still feel it's missing some things, for example it doesn't seem to remove files from each `migrations` folders. There's also a lot of stuff there that I don't know what they do - I understand not all of it is needed. Any advice is appreciated. 
+
+",strong,strong,0.9996,53.82,live_llm,,0.0,36.70890212059021
+440,Generate a list of 5 related words to this input noun,cheap,cheap,0.9995,53.08,live_llm,,0.0,1.3485751152038574
+441,Send a file via Bluetooth to a device,strong,strong,0.9991,54.64,live_llm,,0.0,26.10966992378235
+442,"Client 1: Is a simple view with a message obtained from database, ""My message""
+
+
+Client 2: other view of same server, this client update the message from database ""My NEW message""
+
+
+When client 2 update the message, i want that Client 1 navigator was updated and show ""My NEW message"". Is it possible?
+
+
+A way to do that could be exec a automatic ajax call every X seconds... but i prefer that server send a message to the other client updating his view.
+
+
+I have no clue if it is possible.
+
+
+Thanks in advance
+
+",strong,strong,0.9996,58.02,live_llm,,0.0,36.37767434120178
+443,Describe how artificial intelligence (AI) will shape the future of medicine.,cheap,cheap,0.9996,52.19,live_llm,,0.0,3.824995279312134
+444,Write a Python code snippet to print the pyramid structure with the given number of lines. 4,strong,strong,0.9996,59.16,live_llm,,0.0,14.221551418304443
+445,Create a Python program that implements the insertion sort algorithm,strong,strong,0.9996,52.96,live_llm,,0.0,23.72238540649414
+446,Define a function in Python to check if a number is even,strong,strong,0.9996,31.42,live_llm,,0.0,16.931519746780396
+447,Name one ozone-depleting substance.,cheap,cheap,0.9996,48.82,live_llm,,0.0,1.0109944343566895
+448,Rewrite this English sentence into Spanish: The sun rises in the east,cheap,cheap,0.9992,57.55,live_llm,,0.0,0.37735867500305176
+449,Combine the two sentences together in a coherence manner. Output a one complete sentence.,cheap,cheap,0.9995,52.47,live_llm,,0.0,0.7122929096221924
+450,How to implement real-time video analytics?,strong,strong,0.9995,53.71,live_llm,,0.0,35.12955689430237
+451,Develop a Python program that takes in a date as an input and prints out the following day in a human-readable format,strong,strong,0.9996,53.7,live_llm,,0.0,26.81926727294922
+452,"Execute code: import hashlib
+hashed = hashlib.md5('hello'.encode()).hexdigest()",strong,strong,0.9996,58.23,live_llm,,0.0,11.902042388916016
+453,Compare Renaissance art to modern art.,cheap,cheap,0.9995,53.65,live_llm,,0.0,2.8004050254821777
+454,Create a one-by-one matrix.,cheap,cheap,0.9995,60.14,live_llm,,0.0,0.5628771781921387
+455,Python functions to choose key conditionally from a tuple of keys.,strong,strong,0.9996,52.88,live_llm,,0.0,25.566364288330078
+456,Generate a list of ideas that could be used to create a children's TV show.,cheap,cheap,0.9996,53.02,live_llm,,0.0,5.182255983352661
+457,Read the following article and come up with two discussion questions.,cheap,cheap,0.9996,57.89,live_llm,,0.0,0.4557158946990967
+458,Compute the factorial of 10.,cheap,cheap,0.9995,58.97,live_llm,,0.0,2.2708840370178223
+459,"How can you create a dictionairy from the following two lists in Python? list1 = [""a"", ""b"", ""c""]
+list2 = [1, 2, 3]",strong,strong,0.9996,55.3,live_llm,,0.0,10.087695837020874
+460,Provide a one-sentence definition for the following machine learning algorithm.,cheap,cheap,0.9996,53.25,live_llm,,0.0,0.5609803199768066
+461,"Create a Python function that uses a given dictionary to calculate the sum of all the values for each key {'a': 4, 'b': 2, 'c': 1}",strong,strong,0.9996,52.32,live_llm,,0.0,19.589684009552002
+462,Describe how artificial neural networks work.,cheap,cheap,0.9996,58.9,live_llm,,0.0,3.2822468280792236
+463,Fix the code causing a ValueError,strong,strong,0.9993,58.64,live_llm,,0.0,21.541388750076294
+464,"In this task, you are given a word and its definition, please provide an antonym for the word.",cheap,cheap,0.9988,56.18,live_llm,,0.0,0.468533992767334
+465,Create a magazine headline.,cheap,cheap,0.9996,53.05,live_llm,,0.0,1.7127807140350342
+466,Create a program in Python to generate a random string using the given characters. characters = 'abcdefghijklmnopqrstuvwxyz',strong,strong,0.9996,62.81,live_llm,,0.0,10.70970344543457
+467,Detect edges in an image,strong,strong,0.9987,52.94,live_llm,,0.0,34.08541655540466
+468,Open Behance for design inspiration in the afternoon!,strong,strong,0.9989,54.53,live_llm,,0.0,15.345967769622803
+469,Write a Python program to replace all the white spaces in a given string with the '*' character str = ?This is a sample string?,strong,strong,0.9996,58.1,live_llm,,0.0,7.894067049026489
+470,Write a Python script which checks if an input string is a palindrome.,strong,strong,0.9995,60.92,cache,0.1088,0.0,0.21852421760559082
+471,Give me an example of a time you had to have a difficult conversation.,cheap,cheap,0.9995,51.58,live_llm,,0.0,0.7711834907531738
+472,"Write a sentence that uses the metaphor: ""The sky was a blanket.""",cheap,cheap,0.9996,53.02,live_llm,,0.0,0.3801894187927246
+473,When can you use a comma in a sentence?,cheap,cheap,0.9993,54.61,live_llm,,0.0,2.184332847595215
+474,Compute the total amount of product sold between the two dates.,cheap,cheap,0.9995,59.0,live_llm,,0.0,0.9221577644348145
+475,Generate a random password of the given length in Python,strong,strong,0.9995,58.25,live_llm,,0.0,34.046624422073364
+476,"Create a program that sorts a list of strings in alphabetical order ['python', 'javascript', 'java', 'go']",strong,strong,0.9995,55.66,live_llm,,0.0,12.986785888671875
+477,Determine if the given statement is a fact or an opinion.,cheap,cheap,0.9995,52.78,live_llm,,0.0,2.0229458808898926
+478,"Generate a Python function to generate a sequence of numbers based on a given interval Start: 2, End: 5",strong,strong,0.9996,53.35,live_llm,,0.0,12.445053577423096
+479,Identify if the given number is odd or even.,cheap,cheap,0.9995,45.64,live_llm,,0.0,0.9645192623138428
+480,Create an algorithm in Python to implement insertion sort,strong,strong,0.9996,52.47,cache,0.03,0.0,0.1463184356689453
+481,Modify the following Python program to check whether a given string is a palindrome,strong,strong,0.9995,75.85,cache,0.0949,0.0,0.15972375869750977
+482,Implement a function in Python to determine if a string is a palindrome.,strong,strong,0.9996,55.84,cache,0.0819,0.0,0.18107962608337402
+483,"Optimize this program in Python to find the highest peak in a given array def find_highest_peak(arr):
+  highest_peak = 0
+  for i in range(len(arr)):
+    if i == 0:
+      highest_peak = arr[i]
+    else:
+      if arr[i] > highest_peak:
+        highest_peak = arr[i]  
+  return highest_peak",strong,strong,0.9996,59.16,live_llm,,0.0,16.92623782157898
+484,Explain the term 'broadcasting' in broadcasting your internet signal.,cheap,cheap,0.9996,54.37,live_llm,,0.0,2.150930881500244
+485,Explain the process of bacterial transformation,cheap,cheap,0.9994,53.48,live_llm,,0.0,3.877143621444702
+486,What is the best programming language for developing machine learning applications?,cheap,cheap,0.9984,46.13,live_llm,,0.0,2.644740581512451
+487,Select the correct answer to the following true or false question:,cheap,cheap,0.9995,54.21,live_llm,,0.0,0.43857836723327637
+488,Create a story for a five-year-old about a person who moves to a new city.,cheap,cheap,0.9996,55.77,live_llm,,0.0,2.8402445316314697
+489,"Given a set of points, calculate the area of the shape created.",cheap,cheap,0.9995,57.5,live_llm,,0.0,4.828708171844482
+490,"Rewrite the following sentence with active voice:
+""The form was filled out by me.""",cheap,cheap,0.9995,52.26,live_llm,,0.0,0.3300750255584717
+491,Generate a 5-element tuple of random numbers between 5 and 15 using Python.,strong,strong,0.9985,55.06,live_llm,,0.0,8.523834943771362
+492,"Write a sequence of characters that contain 8 characters and ends with ""z"".",cheap,cheap,0.9995,54.9,live_llm,,0.0,0.39857053756713867
+493,"Using the given Python data, create dictionaries of all students and all courses with the corresponding IDs as keys students = [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
+courses = [('math', 'B', 18), ('science', 'A', 20)]",strong,strong,0.9996,59.79,live_llm,,0.0,28.988526105880737
+494,"Classify the following types of clouds: Cirrus, cumulus, and stratus.",cheap,cheap,0.9995,51.36,live_llm,,0.0,1.7675507068634033
+495,Show the current fan speeds,strong,strong,0.9993,57.1,live_llm,,0.0,9.426488399505615
+496,Develop a timeline for the American Revolution.,cheap,cheap,0.9996,55.86,live_llm,,0.0,5.596709966659546
+497,Describe the process used to find a lost cell phone,cheap,cheap,0.9995,53.34,live_llm,,0.0,0.5036993026733398
+498,Generate a list of questions someone should ask before deciding on a career.,cheap,cheap,0.9996,50.66,live_llm,,0.0,4.337287664413452
+499,"Create a python function that prints out the largest element in an array [1,4,7,12,-1]",strong,strong,0.9996,55.19,live_llm,,0.0,10.622864484786987
