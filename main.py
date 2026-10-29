@@ -72,5 +72,16 @@ async def chat(request: ChatRequest):
     # 6. Save LLM response to state
     await add_to_history(session_id, "assistant", llm_result["response"])
     
-    # 7. Cache the new standalone concept (Bypassed if skip_cache is True)
+# 7. Cache the new standalone concept (Bypassed if skip_cache is True)
     if not history and not request.skip_cache:
+        insert_query = "INSERT INTO semantic_cache (prompt, prompt_embedding, response) VALUES ($1, $2::vector, $3);"
+        await conn.execute(insert_query, request.message, vector_str, llm_result["response"])
+        await conn.close()
+    
+    return {
+        "session_id": session_id,
+        "response": llm_result["response"],
+        "source": "live_llm",
+        "router_telemetry": router_telemetry,
+        "llm_telemetry": llm_result
+    }
